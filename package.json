@@ -1,0 +1,28 @@
+{
+  "name": "todo-imvc",
+  "version": "1.0.0",
+  "description": "todo list app powered by react-imvc",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-imvc start --config imvc.config.js",
+    "build": "react-imvc build --config imvc.config.js",
+    "test": "react-imvc test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucifier129/todo-imvc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucifier129/todo-imvc/issues"
+  },
+  "homepage": "https://github.com/Lucifier129/todo-imvc#readme",
+  "dependencies": {
+    "react-imvc": "^1.3.4",
+    "react-lite": "^0.15.39",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  }
+}
