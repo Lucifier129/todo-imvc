@@ -41,7 +41,7 @@ export const ADD_TODO = (state, { id, content }) => {
   };
   return {
     ...state,
-    todos: state.todos.concat(todo),
+    todos: [todo, ...state.todos],
     text: ""
   };
 };
